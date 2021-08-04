@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name='origin' fetch='.' />
+    <default revision='master' remote='origin' sync-j="4" />
+
+    <project path="maven-aggregator" name="maven-aggregator">
+        <linkfile src="pom.xml" dest="pom.xml" />
+    </project>
+
+    <project name="module1" path="module1"/>
+    <project name="module2" path="module2"/>
+</manifest>
+
